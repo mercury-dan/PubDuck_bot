@@ -7,7 +7,7 @@ from db import SQLighter
 admin = '576688754'
 db = SQLighter('db.sqlite')
 print("Зашёл в БД")
-bot = telebot.TeleBot('5326194649:AAGqvkQdcRarzK6I8sUy558juxCqZxTs_Gg')
+bot = telebot.TeleBot('TOKEN')
 
 
 @bot.message_handler(commands=['start'])
